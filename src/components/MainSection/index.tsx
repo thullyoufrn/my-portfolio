@@ -42,16 +42,11 @@ export default function MainSection() {
           </div>
 
           <img
-            className="max-w-xs rounded-3xl border border-gray-300 rotate-2"
+            className="max-w-xs rounded-photo border border-gray-300"
             src="/me.jpg"
             alt="Me"
           />
         </div>
-
-        {/* <div className="flex gap-5 items-center"> */}
-        {/* <span className="font-bold">Tech Stack</span> */}
-
-        {/* <div className="h-10 w-px bg-gray-500"></div> */}
 
         <div className="flex justify-around flex-1">
           {TechStack.map(({ src, label }, index) => {
@@ -71,7 +66,6 @@ export default function MainSection() {
             )
           })}
         </div>
-        {/* </div> */}
       </div>
     </section>
   )

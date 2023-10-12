@@ -6,6 +6,10 @@ export default {
       fontFamily: {
         montserrat: ['Montserrat', 'sans'],
       },
+
+      borderRadius: {
+        photo: '3rem',
+      },
     },
   },
   plugins: [],
