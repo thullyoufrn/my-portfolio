@@ -40,6 +40,7 @@ export function App() {
 
               <div className="flex gap-4 items-center">
                 <a
+                  className="hover:scale-105 transition-all duration-150"
                   target="_blank"
                   href="https://www.linkedin.com/in/thullyo-damasceno-375083231/"
                   rel="noreferrer"
@@ -52,6 +53,7 @@ export function App() {
                 </a>
 
                 <a
+                  className="hover:scale-105 transition-all duration-150"
                   target="_blank"
                   href="https://github.com/thullyoufrn"
                   rel="noreferrer"
@@ -66,7 +68,7 @@ export function App() {
             </div>
 
             <img
-              className="max-w-sm rounded-full border border-gray-300"
+              className="max-w-xs rounded-full border border-gray-300"
               src="../public/me.jpg"
               alt="Me"
             />
@@ -77,26 +79,15 @@ export function App() {
 
             <div className="h-10 w-px bg-gray-900"></div>
 
-            <div className="flex gap-14 justify-center flex-1">
+            <div className="flex gap-10 justify-center flex-1">
               {TechStack.map(({ src, label }, index) => {
-                return label !== 'Next' ? (
+                return (
                   <div key={index} className="flex flex-col items-center">
-                    <TechLogo src={src} alt={label} />
-                    <span className="text-xs mt-4">{label}</span>
-                  </div>
-                ) : (
-                  <div
-                    key={index}
-                    className="flex flex-col gap-2 items-center justify-center"
-                  >
-                    <TechLogo
-                      src={src}
-                      alt={label}
-                      className="w-14 -translate-x-2"
-                    />
-                    <span className="-translate-x-2 mt-2 translate-y-px text-xs">
-                      {label}
-                    </span>
+                    <div className="flex flex-1 justify-center items-center">
+                      <TechLogo src={src} alt={label} />
+                    </div>
+
+                    <span className="text-sm mt-4">{label}</span>
                   </div>
                 )
               })}

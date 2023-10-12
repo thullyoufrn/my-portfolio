@@ -1,26 +1,30 @@
 export const TechStack = [
   {
-    src: '../public/HTML5_Badge.svg',
+    src: '/HTML5_Badge.svg',
     label: 'HTML',
   },
   {
-    src: '../public/CSS3_logo.svg',
+    src: '/CSS3_logo.svg',
     label: 'CSS',
   },
   {
-    src: '../public/js.svg',
+    src: '/js.svg',
     label: 'JavaScript',
   },
   {
-    src: '../public/ts.svg',
+    src: '/ts.svg',
     label: 'TypeScript',
   },
   {
-    src: '../public/react.svg',
+    src: '/react.svg',
     label: 'React',
   },
   {
-    src: '../public/Next.js.svg',
-    label: 'Next',
+    src: '/next.svg',
+    label: 'Next.js',
+  },
+  {
+    src: '/tailwindOficialLogo.svg',
+    label: 'TailwindCSS',
   },
 ]
