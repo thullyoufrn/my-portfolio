@@ -10,9 +10,9 @@ export default function Callout() {
     >
       <ArrowSquareOut size={20} />
 
-      <p>
-        Click here to check out my online{' '}
-        <span className="font-semibold">JavaScript</span> course
+      <p className="font-medium">
+        Clique aqui para assistir ao{' '}
+        <span className="font-semibold">meu curso de JavaScript</span>
       </p>
     </a>
   )

@@ -9,15 +9,15 @@ export default function MainSection() {
       <div className="flex flex-col gap-20 items-center">
         <Callout />
 
-        <div className="flex items-center">
+        <div className="flex items-center gap-5">
           <div className="flex flex-col gap-8 max-w-lg mr-5">
             <h1 className="text-5xl font-extrabold">
-              Front-End React Developer👋
+              Desenvolvedor Front-End React👋
             </h1>
 
             <p className="font-medium text-gray-500">
-              Hi, I&apos;m Thullyo Damasceno. A passionate Front-End React
-              Developer based in Natal, Brazil. 📍
+              Olá, eu sou Thullyo Damasceno. Um apaixonado Desenvolvedor
+              Front-End React situado em Natal, RN. 📍
             </p>
 
             <div className="flex gap-4 items-center">
