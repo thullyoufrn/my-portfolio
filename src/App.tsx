@@ -3,7 +3,7 @@ import Navbar from './components/Navbar'
 
 export function App() {
   return (
-    <main className="h-screen font-montserrat">
+    <main className="min-h-screen font-montserrat">
       <Navbar />
       <MainSection />
     </main>
